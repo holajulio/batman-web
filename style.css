@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
 
 body {
     max-width: 40%;
@@ -21,10 +22,10 @@ body {
  }
  .bate{
     text-align:justify;
-    position: absolute; /* Establece el posicionamiento absoluto */
-    top: 50%; /* Alinea el texto verticalmente en el centro */
-    left: 50%; /* Alinea el texto horizontalmente en el centro */
-    transform: translate(-50%, -75%); /* Centra el texto completamente */
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -75%);
 }
  .enlace {
     color:red;
@@ -42,9 +43,14 @@ body {
      margin-right: 3%;
  }
  h2{
-     text-align: center;
-     font-size: 40px;
- }
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0;
+    }
  .row{
      display: flex;
      text-align: center;
