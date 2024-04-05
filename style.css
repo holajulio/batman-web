@@ -1,0 +1,55 @@
+body {
+    max-width: 40%;
+    margin: 0 auto;
+    justify-content: justify;
+    font-family: 'calibri';
+ }
+ header{
+    background-image: url(./img/header_background.jpeg);
+    background-size: auto;
+    background-position: center;
+    height: 100%;  
+ }
+ h1{
+     margin-left: 3%;
+     margin-right: 3%;
+ }
+ .enlace {
+    color:red;
+    text-decoration: none;
+ }
+ p {
+     font-size: 21px;
+     margin-left: 3%;
+     margin-right: 3%;
+ }
+ img {
+     width: 100%;
+     margin-top: 10%;
+     margin-left: 3%;
+     margin-right: 3%;
+ }
+ h2{
+     text-align: center;
+     font-size: 40px;
+ }
+ .row{
+     display: flex;
+     text-align: center;
+ }
+ .pro1{
+     width: 250px;
+     margin-right: 15px;
+     margin-left: 10px;
+ }
+ .pro2{
+     width: 250px;
+     margin-left: 10px;
+     margin-right: 10px;
+ }
+ footer {
+    background-color: #333; 
+    color: white; 
+    padding: 20px;
+    text-align: center;
+}
